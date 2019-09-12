@@ -1,0 +1,35 @@
+/* Left Button */
+button:first-child 
+{
+	background-image: linear-gradient(to left, #898864 , #b0ccdd);
+	float:left;
+	border-radius: 100px 0 0 100px;		
+}
+
+/* Right Button */
+button:last-child 
+{
+	background-image: linear-gradient(to right, #9e2b56 , #334b6e, #5a879f);
+	float:right;
+	border-radius: 0 100px 100px 0;
+}
+
+/* Button All */
+button
+{
+	color:white;
+	font-size:10 px;
+	width: 45%; /* 50% */
+	height: 50px;
+	margin-top: 50px;
+	
+}
+
+button:hover
+{
+	color:#cecece;
+	cursor: pointer;
+}
+button:focus {
+	outline: none !important
+}
